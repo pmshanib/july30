@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+body {
+    background-color: #FF66BF;
+    position: relative;
+}
+
+.animate__fadeInUp {
+    color: #000000;
+    /* text-align: left; */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    /* position: absolute; */
+    /* left: 24px;
+    top: 42px;
+    width: 345px;
+    height: 119px; */
+    animation: fadeInUp 2.5s ease-in-out 1;
+}
+
+@keyframes fadeInUp {
+
+}
+
+.animate__fadeInLeft {
+  color: #ffffff;
+  /* text-align: left; */
+  font-family: "Bitcount Grid Double", system-ui;
+  font-size: 64px;
+  font-weight: 400;
+  /* position: absolute; */
+  /* left: 18px; */
+  /* top: 118px; */
+  /* width: 369px;
+  height: 101px; */
+  -webkit-text-stroke: 1.5499999523162842px #ffffff;
+  animation: fadeInLeft 2.5s ease-in-out 0.5s 1;
+}
+
+@keyframes fadeInLeft {
+
+}
+
+h1 {
+  padding-left: 200px;
+}
+
+.qa {
+  padding-left: 200px;
+}
